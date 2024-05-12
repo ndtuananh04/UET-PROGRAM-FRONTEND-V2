@@ -1,0 +1,79 @@
+.min-vh-100 {
+    min-height: 100vh;
+  }
+.flex-grow-1 {
+    flex-grow: 1;
+  }
+.logo-and-title {
+  display: flex;
+  align-items: center; /* This ensures vertical alignment */
+  justify-content: flex-start; /* This aligns items to the start of the container */
+  gap: 10px; /* Optional: adds space between the logo and the title */
+}
+
+.bg {
+  background-image: linear-gradient(0, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.1)),
+  url(../public/UETbg.jpg);
+  background-attachment: fixed;
+  /* width: 200px;
+  height: 200px; */
+  background-size: cover;
+  z-index: -1;
+}
+
+.shadowing {
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.bgnv {
+  background-image: linear-gradient(0, rgba(92, 93, 133, 0.7), rgba(37, 59, 128, 0.1)),
+  url(../public/navbg.png);
+  /* background-attachment: fixed; */
+  background-size: cover;
+  z-index: -1;
+}
+
+.tabler {
+  border-collapse: collapse;
+  width: 100%;
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  text-align: left;
+  border-radius: 10px;  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.thr {
+  background-color: #314ea6;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #ccc;
+  }
+
+.trr {
+ background-color: #f2f2f2;
+  }
+  
+  td:hover {
+      background-color: #ffedcc;
+    }
+
+  .tdr {
+   background-color: #fff;
+   padding: 10px;
+   border-bottom: 1px solid #ccc;
+   font-weight: bold;
+    }
+
+    .dropdown-menu-right {
+      right: 0 ;
+      left: auto ;
+  }
